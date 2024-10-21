@@ -21,9 +21,17 @@ h1{
     padding-left: 100px;
 }
    
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 18px;
+}
 
-.fa-brand, .fa-solid{
-    text-align: right;
+i{
+    margin-left: 15px;
+    align-content: center;
+    justify-self: end;
+    display: inline-flex;
 }
 
 p{
@@ -81,3 +89,4 @@ footer{
 .pied{
     font-size: 60%;
 }
+
