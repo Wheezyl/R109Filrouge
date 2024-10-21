@@ -14,7 +14,7 @@ body{
 
 h1{
     color: white;
-    font-size: 150%;
+    font-size: 250%;
 }
 
 .bloc1{
@@ -57,4 +57,27 @@ p{
 .auteur{
     color: white;
     font-size: 130%;
+}
+
+hr{
+    color: rgb(66, 84, 94);
+}
+
+.bloc2 li{
+    display: inline;
+    color: white;
+    font-family: arial;
+    font-size: 45%;
+    padding-left: 130px;
+    width: 50%;
+
+}
+
+footer{
+    text-align: center;
+    font-size: 80%;
+}
+
+.pied{
+    font-size: 60%;
 }
