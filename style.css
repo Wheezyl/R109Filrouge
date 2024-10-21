@@ -1,0 +1,25 @@
+.yeseva-one-regular {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.t3{
+    color:rgb(42, 172, 129)
+}
+
+body{
+    background-color: rgb(4, 24, 33);
+}
+
+h1{
+    color: white;
+}
+
+.bloc1{
+    padding-left: 100px;
+}
+
+header{
+    color: white;
+}
