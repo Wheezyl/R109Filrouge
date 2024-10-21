@@ -14,17 +14,14 @@ body{
 
 h1{
     color: white;
-    font-size: 250%;
+    font-size: 150%;
 }
 
 .bloc1{
     padding-left: 100px;
 }
+   
 
-header{
-    color: white;
-    font-size: 150%;
-}
 .fa-brand, .fa-solid{
     text-align: right;
 }
@@ -37,12 +34,27 @@ p{
     color: rgb(42, 172, 129);
 }
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
 
-.montserrat-<uniquifier> {
+
+.montserrat-.auteur {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
+}
+
+p{
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70%;
+}
+
+.image{
+    padding-left: 100px;
+}
+
+.auteur{
+    color: white;
+    font-size: 130%;
 }
