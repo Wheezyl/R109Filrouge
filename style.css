@@ -1,5 +1,5 @@
 .yeseva-one-regular {
-    font-family: "Yeseva One", serif;
+    font-family: "Yeseva One";
     font-weight: 400;
     font-style: normal;
   }
@@ -25,17 +25,19 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 18px;
+    justify-content: space-around;
 }
 
-i{
-    align-content: center;
-    justify-self: end;
-    display: inline-flex;
+#div2 {
+    padding: 8px;
+    text-align: right;
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: space-between;
 }
 
-p{
-    color: rgb(102, 115, 121);
-}
+
 
 .point{
     color: rgb(42, 172, 129);
@@ -55,13 +57,14 @@ p{
     font-weight: 400;
     font-style: normal;
     font-size: 70%;
+    color: rgb(102, 115, 121);
 }
 
 .image{
+    justify-items: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    justify-content: center;
     margin-top: 10px;
 }
 
@@ -70,19 +73,22 @@ p{
     font-size: 130%;
 }
 
-hr{
-    color: rgb(66, 84, 94);
+.trait {
+    border: none;
+    height: 4px;
+    background-color: rgb(66, 84, 94);
+    width: 100%;
 }
 
-.bloc2 li{
-    display: inline;
+
+.bloc2 li {
+    display: inline-block;
     color: white;
-    font-family: arial;
+    font-family: Arial, sans-serif; 
     font-size: 45%;
     padding-left: 130px;
-    width: 50%;
-
 }
+
 
 footer{
     text-align: center;
