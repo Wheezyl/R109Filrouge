@@ -1,0 +1,66 @@
+
+/* Corps général */
+body {
+    background-color: rgb(4, 24, 33);
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+}
+
+/* Div des icônes (alignement à droite) */
+#div2 {
+    float: right;
+}
+
+/* Trait (ligne) */
+.trait {
+    border: none;
+    height: 2px;
+    background-color: rgb(66, 84, 94);
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+}
+
+/* Bloc de texte */
+.bloc1 {
+    padding-left: 100px;
+}
+
+h1 {
+    color: white;
+    font-size: 250%;
+}
+
+/* Style des images */
+.image {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colonnes */
+    gap: 10px;
+    justify-content: center; /* Centrage de la galerie */
+    margin: 0 auto;
+    width: 80%; /* Ajustement de la largeur */
+}
+
+/* Style pour limiter à 15 images */
+.image img:nth-child(n+16) {
+    display: none;
+}
+
+/* Responsive: réduire le nombre de colonnes pour petits écrans */
+@media (max-width: 1024px) {
+    .image {
+        grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+    }
+}
+
+@media (max-width: 640px) {
+    .image {
+        grid-template-columns: repeat(2, 1fr); /* 2 colonnes pour mobile */
+    }
+}
